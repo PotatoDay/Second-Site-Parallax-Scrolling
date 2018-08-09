@@ -32,3 +32,46 @@ body, html{
     background-image: url('../img/img3.jpg');
     min-height:500px;
   }
+
+  .section{
+    text-align: center;
+    padding: 50px 80px;
+  }
+
+  .section-light{
+    background-color: #f4f4f4;
+    color: #666;
+  }
+
+  .section-dark{
+    background-color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
+  }
+
+  .ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  .ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .ptext .border.trans{
+    background-color: #f7ca02;
+    color: #000;
+  }
+
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment: scroll;
+    }
+  }
